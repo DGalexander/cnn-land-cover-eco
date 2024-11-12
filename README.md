@@ -4,6 +4,18 @@ This is the code corresponding to the following publication. If you use our code
 
 van der Plas, T.L.; Geikie, S.T.; Alexander, D.G.; Simms, D.M. Multi-Stage Semantic Segmentation Quantifies Fragmentation of Small Habitats at a Landscape Scale. _Remote Sensing_ **2023**, 15, 5277. [https://doi.org/10.3390/rs15225277](https://doi.org/10.3390/rs15225277)
 
+## Forked Repository with Extended Workflow for Enhanced Land Cover Analysis
+This repository is a forked version of the original land cover segmentation model, with additional processes for extending the model's application. In this modified version, we incorporate additional labelling across image tiles and in larger grouped clusters. Soil classifications and post-processing were altered to enhance the segmentation outputs and processing speed.
+
+The extended functionality includes:
+
+1. **Running the original land cover segmentation model** to predict initial land cover classes.
+2. **Increase training and test data** 5,025 (512x512 px) patches 3.49% of study area
+2. **Inference and integration of soil labels**, adding soil-specific classifications to land cover outputs at the raster stage.
+3. **Dissolving small patches of less than a specified threshold area** to enhance spatial coherence in the final output. 
+
+## Original Readme https://github.com/pdnpa/cnn-land-cover/edit/main/README.md
+
 ### Installation:
 1. To ensure you've got all the necessary packages, follow the instructions in `envs/README_envs.md` to install a new conda environment with the correct set of packages.
 2. Set your user-specific file paths in `content/data_paths.json`. There is "new-username" template that you can use to enter your paths (using your computer username). An explanation of what each path is for is given in `content/README_datapaths.md`. 
