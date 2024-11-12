@@ -14,7 +14,7 @@ The extended functionality includes:
 2. **Inference and integration of soil labels**, adding soil-specific classifications to land cover outputs at the raster stage.
 3. **Dissolving small patches of less than a specified threshold area** to enhance spatial coherence in the final output. 
 
-## Original Readme https://github.com/pdnpa/cnn-land-cover/edit/main/README.md
+## Original [README](https://github.com/pdnpa/cnn-land-cover/edit/main/README.md)
 
 ### Installation:
 1. To ensure you've got all the necessary packages, follow the instructions in `envs/README_envs.md` to install a new conda environment with the correct set of packages.
