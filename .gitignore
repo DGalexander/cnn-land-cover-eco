@@ -5,4 +5,8 @@ __pycache__/
 notebooks/lightning_logs/
 scripts/lightning_logs/
 QGIS
+predictions
+shapefiles
+/content/pd_lc_eco_rgb_patches_512_test/
+/content/pd_lc_eco_rgb_patches_512_train/
 /content/adp_test/
