@@ -10,9 +10,10 @@ This repository is a forked version of the original land cover segmentation mode
 The extended functionality includes:
 
 1. **Running the original land cover segmentation model** to predict initial land cover classes.
-2. **Increase training and test data** 5,025 (512x512 px) patches 3.49% of study area
-2. **Inference and integration of soil labels**, adding soil-specific classifications to land cover outputs at the raster stage.
-3. **Dissolving small patches of less than a specified threshold area** to enhance spatial coherence in the final output. 
+2. **Increase training and test data** 5,025 (512x512 px) patches 3.49% of study area with new sample selction across image tiles using .vrt
+3. **Inference and integration of soil labels**, adding soil-specific classifications to land cover outputs at the raster stage.
+4. **OS_NGD**, new dictionary to match schema required for modelling work
+5. **Dissolving small patches of less than a specified threshold area** to enhance spatial coherence in the final output. 
 
 ## Original [README](https://github.com/pdnpa/cnn-land-cover/edit/main/README.md)
 
