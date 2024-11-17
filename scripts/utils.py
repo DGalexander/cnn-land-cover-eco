@@ -1,7 +1,6 @@
 import sys
 import os
-#sys.path.append('/home/jovyan/work/cnn-land-cover/scripts/')
-sys.path.append('../cnn-land-cover/scripts/')
+sys.path.append('../scripts/')
 import land_cover_models as lcm
 import rioxarray as rio
 import torch
